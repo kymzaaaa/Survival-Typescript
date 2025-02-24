@@ -1,0 +1,29 @@
+# Node.js関連
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Jest関連
+coverage/
+jest-cache/
+jest.config.js
+
+# TypeScript関連
+*.tsbuildinfo
+dist/
+
+# VSCodeの設定ファイル
+.vscode/
+
+# macOS特有のファイル
+.DS_Store
+
+# 環境変数や秘密情報
+.env
+.env.local
+.env.development
+.env.production
+.env.test
